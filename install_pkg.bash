@@ -28,5 +28,6 @@ cd ~
 cd $1
 colcon build --packages-select $2
 source install/setup.bash
+echo $path
 cd path
 
