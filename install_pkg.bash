@@ -6,7 +6,7 @@ replace_pkg_name () {
     fi
 }
 
-path=$(pwd)
+path=$(pwd -P)
 cp -r ROS2_pkg_cpp_py/package_name ~/$1/src
 cd ~
 cd $1/src/
