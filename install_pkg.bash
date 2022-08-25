@@ -7,7 +7,6 @@ replace_pkg_name () {
 }
 
 cp -r ROS2_package_cpp_python/package_name ~/$1/src
-rm -rf ROS2_package_cpp_python
 cd ~
 cd $1/src/
 ls
