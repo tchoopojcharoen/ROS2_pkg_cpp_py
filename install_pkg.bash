@@ -7,7 +7,7 @@ replace_pkg_name () {
 }
 
 path=$(pwd)
-cp -r ROS2_package_cpp_python/package_name ~/$1/src
+cp -r ROS2_pkg_cpp_py/package_name ~/$1/src
 cd ~
 cd $1/src/
 ls
