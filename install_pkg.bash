@@ -6,6 +6,7 @@ replace_pkg_name () {
     fi
 }
 
+path=$(pwd)
 cp -r ROS2_package_cpp_python/package_name ~/$1/src
 cd ~
 cd $1/src/
@@ -27,4 +28,5 @@ cd ~
 cd $1
 colcon build --packages-select $2
 source install/setup.bash
+cd path
 
