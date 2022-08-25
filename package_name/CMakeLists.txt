@@ -27,7 +27,7 @@ ament_python_install_package(${PROJECT_NAME})
 
 # Install Python executables
 install(PROGRAMS
-  scripts/dummy.py
+  scripts/dummy_scripts.py
   DESTINATION lib/${PROJECT_NAME}
 )
 
