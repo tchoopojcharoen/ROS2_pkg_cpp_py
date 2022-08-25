@@ -12,7 +12,6 @@ cd ~
 cd $1/src/
 ls
 
-
 mv package_name $2
 
 mv $2/package_name $2/$2
@@ -28,6 +27,5 @@ cd ~
 cd $1
 colcon build --packages-select $2
 source install/setup.bash
-echo $path
 cd $path
 
