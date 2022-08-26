@@ -1,8 +1,10 @@
 # ROS2_pkg_cpp_py
 
 ## Rationale behind this repository
-  In ROS2, the standard options for building packages (--build-type) are "ament_python" and "ament_cmake".\\
-  With ament_python, you can create Python modules and scripts and set up the build by configuring "setup.py". However, if you want this package to work with C++ code, you will need to add "CMakeLists.txt" add set it up properly.\\
+  In ROS2, the standard options for building packages (--build-type) are "ament_python" and "ament_cmake".\
+  \
+  With ament_python, you can create Python modules and scripts and set up the build by configuring "setup.py". However, if you want this package to work with C++ code, you will need to add "CMakeLists.txt" add set it up properly.\
+  \
   With ament_cmake, you can create C++ header files and source codes and set up the build by configuring the auto-generated "CMakeLists.txt". However, if you want this package to work with Python code, you will need to add more codes to the "CMakeLists.txt". This looks a bit cumbersome. But we just do it for you, so you don't have to !!
 
 ## Repository's Description & Instruction
