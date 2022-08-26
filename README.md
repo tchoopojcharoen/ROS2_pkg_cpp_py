@@ -20,3 +20,6 @@ Step 2 : Run the following command to generate package.
 . ROS2_pkg_cpp_py/install_pkg.bash {YOUR_WORKSPACE} {PACKAGE_NAME}
 
 ```
+
+Note:
+We highly suggest you cloning this repo to somewhere outside of your workspace. For now, remember where you clone this file because you have to change to the directory before running [Step 2]
